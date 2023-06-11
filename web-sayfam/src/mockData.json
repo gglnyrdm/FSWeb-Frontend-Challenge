@@ -1,0 +1,141 @@
+{
+  "en": {
+    "about": {
+      "name": "Gülin Yardımoğlu",
+      "title": "Creative Thinker Minimalism Lover",
+      "description": "Hi, I’m Gülin. I’m a full-stack developer. If you are looking for a Developer who can craft solid and scalable frontend products with great user experiences, let’s shake hands with me.",
+      "contact": "Hire Me"
+    },
+
+    "projects": [
+      {
+        "image": "project1.png",
+        "title": "Minnet Günlüğü",
+        "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is avaiable as a NPM package and the git repository makes any type of customization to code and themes possible.",
+        "libraries": ["axios", "redux", "react"],
+        "githubLink": "https://github.com/project1",
+        "siteLink": "https://workintech-gunluk.netlify.app/"
+      },
+      {
+        "image": "project2.png",
+        "title": "Film Listesi",
+        "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is avaiable as a NPM package and the git repository makes any type of customization to code and themes possible.",
+        "libraries": ["axios", "redux", "react"],
+        "githubLink": "https://github.com/project2",
+        "siteLink": "https://workintech-film-list.netlify.app//"
+      },
+      {
+        "image": "project3.png",
+        "title": "Project 3",
+        "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is avaiable as a NPM package and the git repository makes any type of customization to code and themes possible.",
+        "libraries": ["axios", "redux", "react"],
+        "githubLink": "https://github.com/project3",
+        "siteLink": "https://project3.com"
+      }
+    ],
+
+    "footer": {
+      "text": "Let's work together on your next product.",
+      "site": "Personal Blog",
+      "email": "yardimoglugulin@gmail.com"
+    },
+
+    "navbar": {
+      "skills": "Skills",
+      "projects": "Projects",
+      "contact": "Hire Me"
+    },
+
+    "skills": {
+      "title": "Skills",
+      "javaTitle": "JavaScript.js",
+      "javaDescription": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "reactTitle": "React.js",
+      "reactDescription": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "nodeTitle": "Node.js",
+      "nodeDescription": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+
+    "profile": {
+      "title": "Profile",
+      "birthday": "Birth of Date",
+      "city": "City of Residence",
+      "education": "Education Status",
+      "role": "Preferred Role",
+      "myCity": "Ankara",
+      "myEducation": "Ege University",
+      "subhead": "About Me",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend risus at eleifend euismod. Nullam tincidunt viverra ligula, vitae efficitur eros ullamcorper sed. Vestibulum ante ipsum primis in faucibus orci luctus."
+    }
+  },
+
+  "tr": {
+    "about": {
+      "name": "Gülin Yardımoğlu",
+      "title": "Yaratıcı Düşünür Minimalizm Aşığı",
+      "description": "Merhaba, ben Gülin. Ben bir full-stack geliştiricisiyim. Harika kullanıcı deneyimleriyle sağlam ve ölçeklenebilir ön uç ürünleri üretebilen bir geliştirici arıyorsanız, hadi sizinle el sıkışalım.",
+      "contact": "Hire Me"
+    },
+
+    "projects": [
+      {
+        "image": "project1.png",
+        "title": "Minnet Günlüğü",
+        "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is avaiable as a NPM package and the git repository makes any type of customization to code and themes possible.",
+        "libraries": ["axios", "redux", "react"],
+        "githubLink": "https://github.com/project1",
+        "siteLink": "https://workintech-gunluk.netlify.app/"
+      },
+      {
+        "image": "project2.png",
+        "title": "Film Listesi",
+        "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is avaiable as a NPM package and the git repository makes any type of customization to code and themes possible.",
+        "libraries": ["axios", "redux", "react"],
+        "githubLink": "https://github.com/project2",
+        "siteLink": "https://workintech-film-list.netlify.app//"
+      },
+      {
+        "image": "project3.png",
+        "title": "Project 3",
+        "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is avaiable as a NPM package and the git repository makes any type of customization to code and themes possible.",
+        "libraries": ["axios", "redux", "react"],
+        "githubLink": "https://github.com/project3",
+        "siteLink": "https://project3.com"
+      }
+    ],
+
+    "footer": {
+      "text": "Bir sonraki ürününüz üzerinde birlikte çalışalım.",
+      "site": "Kişisel Blog",
+      "email": "yardimoglugulin@gmail.com"
+    },
+
+    "skills": {
+      "title": "Özellikler",
+      "javaTitle": "JavaScript.js",
+      "javaDescription": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "reactTitle": "React.js",
+      "reactDescription": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "nodeTitle": "Node.js",
+      "nodeDescription": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+
+    "navbar": {
+      "skills": "Özellikler",
+      "projects": "Proje",
+      "contact": "İletişim"
+    },
+
+    "profile": {
+      "title": "Profil",
+      "birthday": "Doğum Tarihi",
+      "city": "İkamet Şehri",
+      "education": "Eğitim Durumu",
+      "role": "Tercih Ettiği Rol",
+      "myCity": "Ankara",
+      "myEducation": "Ege Üniversitesi",
+      "subhead": "Hakkımda",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend risus at eleifend euismod. Nullam tincidunt viverra ligula, vitae efficitur eros ullamcorper sed. Vestibulum ante ipsum primis in faucibus orci luctus."
+    }
+  }
+}

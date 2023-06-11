@@ -19,6 +19,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  @media screen (min-width: 375px) {
+    body {
+      max-width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }
 }
 
 code {

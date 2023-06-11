@@ -1,14 +1,14 @@
 import React from 'react';
 
-const ProjectCard = ({ image, title, description, libraries, githubLink, siteLink }) => {
+const ProjectCard = ({ images, title, description, libraries, githubLink, siteLink }) => {
   return (
-    <div className=" bg-white rounded-lg p-20 shadow-md">
-      <img src={image} alt={title} className="mb-4" />
-      <h3 className="text-3xl text-indigo-700 mb-2">{title}</h3>
+    <div className="mb-8 p-4">
+      <img src={images} alt="images" className="mb-4 object-cover h-40 w-full rounded-lg" />
+      <h3 className="text-2xl text-indigo-700 mb-2">{title}</h3>
       <p className="mb-4 text-gray-500 text-sm">{description}</p>
-      <div className="flex justify-start">
+      <div className="flex flex-wrap gap-2">
         {libraries.map((library, index) => (
-          <div key={index} className="bg-white text-indigo-800 outline rounded-lg px-3 py-1 text-sm  mr-3">
+          <div key={index} className="bg-white text-indigo-800 border border-indigo-800 rounded-lg px-3 py-1 text-sm">
             {library}
           </div>
         ))}
@@ -26,4 +26,3 @@ const ProjectCard = ({ image, title, description, libraries, githubLink, siteLin
 };
 
 export default ProjectCard;
-

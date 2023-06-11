@@ -9,29 +9,14 @@ const Skill = ({ title, description }) => {
   );
 };
 
-const Skills = () => {
-  const skillsData = [
-    {
-      title: 'JavaScript',
-      description: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'React.js',
-      description: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Node.js',
-      description: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-  ];
-
+const Skills = ({ skills }) => {
   return (
-    <div id='skills'>
-      <h2 className="text-5xl font-semibold mt-20 text-left">Skills</h2>
-      <div className="flex mt-4 space-x-20">
-        {skillsData.map((skill, index) => (
-          <Skill key={index} title={skill.title} description={skill.description} />
-        ))}
+    <div id="skills">
+      <h2 className="text-5xl font-semibold mt-20 text-left">{skills.title}</h2>
+      <div className="flex flex-col mt-4 space-y-4 md:space-y-0 md:flex-row md:space-x-20">
+        <Skill title={skills.javaTitle} description={skills.javaDescription} />
+        <Skill title={skills.reactTitle} description={skills.reactDescription} />
+        <Skill title={skills.nodeTitle} description={skills.nodeDescription} />
       </div>
       <div className="mt-8 border-b"></div>
     </div>

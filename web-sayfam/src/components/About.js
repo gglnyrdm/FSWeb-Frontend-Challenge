@@ -3,21 +3,19 @@ import foto from "../assets/images/developer.png";
 
 
 
-const About = () => {
+const About = ({about}) => {
   return (
     <div className="flex flex-column">
       <div className="w-full p-10">
         <div className="flex items-center mb-4">
           <div className="w-10 h-px bg-indigo-700 mr-4"></div>
-          <span className="text-left text-indigo-700">Gülin Yardımoğlu</span>
+          <span className="text-left text-indigo-700">{about.name}</span>
         </div>
-        <h1 className="text-4xl text-gray-800 font-bold mb-4 text-left">Creative Thinker <br/> Minimalism Lover</h1>
-        <p className="text-lg text-left">
-          Hi, I’m Gülin. I’m a full-stack developer. If you are looking for a Developer who can craft solid and scalable frontend products with great user experiences, let’s shake hands with me.
-        </p>
+        <h1 className="text-4xl text-gray-800 font-bold mb-4 text-left"> {about.title} </h1>
+        <p className="text-lg text-left">{about.description}</p>
         <div className="flex mt-4">
         <a href="mailto:yardimoglugulin@gmail.com">
-          <button className="py-2 px-4 rounded bg-indigo-800 mr-4 text-white">Hire Me</button>
+          <button className="py-2 px-4 rounded bg-indigo-800 mr-4 text-white">{about.contact}</button>
           </a>
           
           <a href="https://github.com/gglnyrdm" target="_blank" rel="noopener noreferrer" className="py-2 px-4 outline rounded mr-4 text-indigo-800">
